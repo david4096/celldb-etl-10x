@@ -43,7 +43,9 @@ docker run -it david4096/celldb-etl-10x celldb_etl_10x localhost my_10x_data.h5
 
 ```
 
-This will run a docker container and print logs to the terminal.
+This will run a docker container and print logs to the terminal. If no arguments
+are provided 20k cells from the 10xgenomics Megacell demonstration will be
+downloaded.
 
 For 10xgenomics h5:
 
